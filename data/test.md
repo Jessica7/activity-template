@@ -1,9 +1,6 @@
 ---
 title: Kraken the Code
-image: square-kraken.png
-competencies:
-    - Search
-    - Credibility
+
 ---
 
 ## [Section 1. Reading the Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)
