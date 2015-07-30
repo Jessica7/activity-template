@@ -1,7 +1,4 @@
----
-title: Hey the Code
 
----
 
 ## [Section 1. Reading the Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)
 
