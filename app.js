@@ -60,6 +60,8 @@ function bindActivityData() {
 
         $(".activity-instructions > p:nth-child(4)").addClass("lead");
         $(".activity-instructions > p:nth-child(5)").addClass("leadTime");
+        $(".activity-instructions > hr + p").addClass("time");
+
 
         // Execute other bindings
         bindNavigationData();

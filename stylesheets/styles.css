@@ -283,7 +283,9 @@ body {
 
 .activity-instructions {
   padding: 20px 50px;
+  font-weight: 300;
 }
+
 
 .activity-instructions hr {
   content: "";
@@ -294,10 +296,31 @@ body {
   background-color: #eee;
 }
 
+
 .leadTime:before {
   font-family: FontAwesome;
   content: "\f017";
   display: inline-block;
   padding-right: 10px;
   vertical-align: middle;
+}
+
+.time {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.aside {
+  width: 10%;
+}
+
+blockquote {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #F5F5F5;
+  border: 1px solid #E3E3E3;
+  border-radius: 0px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
 }
