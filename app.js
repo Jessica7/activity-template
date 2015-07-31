@@ -17,7 +17,7 @@ function bindAsideData() {
     var source   = $("#aside-template").html();
     var template = Handlebars.compile(source);
 
-    console.log("Loading aside.md markdown file...");
+    console.log("Loading aside.txt markdown file...");
 
     function successfulyLoadedMarkdownFile(markdownData) {
         var asideData = metaMarked(markdownData);
@@ -42,7 +42,7 @@ function bindActivityData() {
     var source   = $("#activity-template").html();
     var template = Handlebars.compile(source);
 
-    console.log("Loading activity.md markdown file...");
+    console.log("Loading activity.txt markdown file...");
 
     function successfulyLoadedMarkdownFile(markdownData) {
         var activityData = metaMarked(markdownData);
