@@ -6,7 +6,7 @@ competencies:
     - Search
     - Credibility
     - Test
-lalala
+!@!
 
 ## [Section 1. Reading the Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)
 
