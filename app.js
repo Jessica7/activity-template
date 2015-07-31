@@ -71,7 +71,7 @@ function bindActivityData() {
     }
 
     $.ajax({
-        url: "data/instructions.md",
+        url: "data/activity.md",
         type: 'get',
         dataType: 'html',
         success: successfulyLoadedMarkdownFile
