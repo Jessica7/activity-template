@@ -1,4 +1,4 @@
----
+!@!
 title: Kraken the Code
 github: mozilla/webmaker-curriculum/blob/gh-pages/WebLiteracyBasics-I/session01-kraken.html
 image: square-kraken.png
@@ -6,7 +6,7 @@ competencies:
     - Search
     - Credibility
     - Test
----
+lalala
 
 ## [Section 1. Reading the Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)
 
@@ -17,7 +17,7 @@ Made by [MOUSE](http://mouse.org/) and remixed for Clubs by [Mozilla](https://we
 Learners will use the Internet to solve the mystery of The Kraken, a legendary sea creature, while also **learning about search terms, keywords, and how to assess the validity and relevance of web sources.**
 
 45 minutes to an hour
-                    
+
 ### Preparation
 
 **Complete the** [pre-activity questionnaire](http://goo.gl/forms/Uua6yKIy5E).
@@ -51,7 +51,7 @@ Have a **brief conversation with your learners about web sources.**
 
 Split learners into **groups of 2 or 3** and explain that each group’s challenge is to **prove whether or not the legendary monster, The Kraken, is real or a myth.**
 
-Groups start by **spending 20 minutes researching.** Using the guidelines from the [Tip Sheet](legit-o-meter.html), groups should **evaluate 2 internet sources**, documenting their findings on the Legit-o-Meter (either by [writing on the handout](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit) or editing [the online template](https://laura.makes.org/thimble/Mjg1NjA2NDAw/kraken-the-code-legit-o-meter)). 
+Groups start by **spending 20 minutes researching.** Using the guidelines from the [Tip Sheet](legit-o-meter.html), groups should **evaluate 2 internet sources**, documenting their findings on the Legit-o-Meter (either by [writing on the handout](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit) or editing [the online template](https://laura.makes.org/thimble/Mjg1NjA2NDAw/kraken-the-code-legit-o-meter)).
 
 ![Image](http://mozilla.github.io/webmaker-curriculum/images/kraken-in-progress.jpg)
 
