@@ -30,7 +30,7 @@ function bindAsideData() {
     }
 
     $.ajax({
-            url: "data/aside.md",
+            url: "data/aside.txt",
             type: 'get',
             dataType: 'html',
             success: successfulyLoadedMarkdownFile
@@ -71,7 +71,7 @@ function bindActivityData() {
     }
 
     $.ajax({
-        url: "data/activity.md",
+        url: "data/activity.txt",
         type: 'get',
         dataType: 'html',
         success: successfulyLoadedMarkdownFile
