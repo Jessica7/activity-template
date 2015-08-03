@@ -1,5 +1,5 @@
 function splitInput(str) {
-    if (str.slice(0, 3) !== '===') return;
+    if (str.slice(0, 3) !== '---') return;
 
     var matcher = /\n(\.{3}|-{3})/g;
     var metaEnd = matcher.exec(str);
