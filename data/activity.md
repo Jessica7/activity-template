@@ -5,7 +5,6 @@ image: square-kraken.png
 competencies:
     - Search
     - Credibility
-    - Test
 ---
 
 ## [Section 1. Reading the Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)

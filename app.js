@@ -100,6 +100,10 @@ Handlebars.registerHelper('competencyButton', function(competency) {
    return template(data);
 });
 
+Handlebars.registerHelper('toLowerCase', function(str) {
+  return str.toLowerCase();
+});
+
 
 // Load everything
 
