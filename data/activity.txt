@@ -1,6 +1,6 @@
 ---
 title: Kraken the Code
-github: mozilla/webmaker-curriculum/blob/gh-pages/WebLiteracyBasics-I/session01-kraken.html
+github: riomozillaclub/activity-template
 image: square-kraken.png
 competencies:
     - Search
