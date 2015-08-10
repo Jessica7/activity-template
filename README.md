@@ -83,3 +83,14 @@ This web app uses AJAX requests to fetch the markdown files asynchronously and t
 
 All the interesting code is inside [the app.js file](https://github.com/RioMozillaClub/activity-template/blob/gh-pages/app.js).
 
+# Challenges
+Since this templating system work on the client side, I don't know how well it will index and how it will affect possible SEO stuff. IMHO I dont really care about that stuff regarding this intiative because activities are meant to be linked from a curriculum page or something similar. I don't expect people to go fishing for activities on a search engine but I am probably wrong.
+
+# Contributing
+You can contribute back to this initiative by sending pull requests, testing this out and giving me feedback and/or sending me recommendations and asking for new features.
+
+Please use the [issues page](https://github.com/RioMozillaClub/activity-template/issues) to contact me with your need/feedback/bug.
+
+Areas where I need help:
+* **CSS:** there are little CSS bugs on this page. CSS/layouting was never my strong suit. I welcome fixes!
+* **Testing:** This needs testing.
