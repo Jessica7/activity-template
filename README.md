@@ -1,5 +1,8 @@
 # Activity Template for MLN activities
-This is a simple to use template that can be used to prototype and test new activities for the Mozilla Learning Networks. The main advantages of this template system are explained below and after that we explain how to use it.
+This is a simple to use template that can be used to prototype and test new activities for the Mozilla Learning Networks.
+You can see this template working live at:
+
+http://riomozillaclub.github.io/activity-template
 
 The idea is that each activity lives inside their own [Github repository](https://help.github.com/articles/github-glossary/#repository). This leads to the advantages below:
 
@@ -75,4 +78,8 @@ Github pages work from the ```gh-pages``` branch. New repositories come by defau
 
 We advise you to create the ```gh-pages```, set it as the default branch on your repository settings and then delete the ```master``` branch.
 
+# How does this work (internally)
+This web app uses AJAX requests to fetch the markdown files asynchronously and then process them using ```marked.js```. It then uses ```handlebars.js``` to insert the processed markdown content into pretty templates. It is also using ```jQuery``` and ```YAML.js``` to make things easier.
+
+All the interesting code is inside [the app.js file](https://github.com/RioMozillaClub/activity-template/blob/gh-pages/app.js).
 
