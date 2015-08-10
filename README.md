@@ -36,9 +36,9 @@ Once you decide to create a new activity, your first step is to create a new rep
  
 We advise you to give a meaningful name for your repository. Usually repository names are all lowercase where words are joined by dashes as in:
  
-```club-activity-challenge-of-the-chupacabra```
+`club-activity-challenge-of-the-chupacabra`
  
-> If we all agree on a common prefix for our repository names (such as: ```club-activity-*```) then it will be quite easy to scan Github and find all activities
+> If we all agree on a common prefix for our repository names (such as: `club-activity-*`) then it will be quite easy to scan Github and find all activities
 
 After creating your new repository on Github, follow the instructions to clone it to your machine. This will make a local copy of the repository on your computer. You will work on your local independent copy and commit and push your data back to the online repository on github. This allows you to work offline and to have a safe copy of all your data.
 
@@ -48,13 +48,13 @@ After cloning your new repository to your computer, you will copy all the files 
 > # Why copying files instead of forking
 > If you are familiar with git you may be wondering why we're advising the user to copy files from one repository to the other instead of just forking the repository into a new one. We're doing this because of two reasons. One is technical and the other semantical.
 >
-> * **Technical:** Github only allows you to have one fork per repository so if you fork the ```activity-template``` to create your ```club-activity-rainbow-slurpee``` then you won't be able to fork it again to create another activity.
+> * **Technical:** Github only allows you to have one fork per repository so if you fork the `activity-template` to create your `club-activity-rainbow-slurpee` then you won't be able to fork it again to create another activity.
 > * **Semantical:** You fork a project when you want to contribute back to it in the form of pull requests or when you want to take a specific project in a new direction. If you want to contribute back to this template, then forking is the correct thing to do but if you're creating new activities then this is semantically different than contributing back or taking this template into a new direction.
 
 ## Step #3 - Customize the markdown content
-The only location where you will change stuff in this template system is inside the ```data``` folder. You will add your images to the ```data/images``` folder and you will customize both the ```aside.md``` and the ```activity.md``` markdown files.
+The only location where you will change stuff in this template system is inside the `data` folder. You will add your images to the `data/images` folder and you will customize both the `aside.md` and the `activity.md` markdown files.
 
-This template has a main content area (content from ```activity.md```) and a little sidebar on the left side (content from ```aside.md```). You need to customize both files to your needs. You can experiment by opening the ```index.html``` file from your local repository, changing those markdown files, and reloading the page to see how changes work.
+This template has a main content area (content from `activity.md`) and a little sidebar on the left side (content from `aside.md`). You need to customize both files to your needs. You can experiment by opening the `index.html` file from your local repository, changing those markdown files, and reloading the page to see how changes work.
  
 Tweak your content until you're happy. Remember that you can keep pushing new revisions of it to your github repo so don't be afraid to experiment.
  
@@ -65,21 +65,21 @@ Rememeber to add the image files to your commit. Just adding files to the folder
 
 Once you push your changes back to your repository, you will be able to browse it online using the public URL for the repository. For example the URL for this repository is:
 
-```http://github.com/riomozillaclub/activity-template```
+`http://github.com/riomozillaclub/activity-template`
 
 The URL to see the working page becomes:
 
-```http://riomozillaclub.github.io/activity-template```
+`http://riomozillaclub.github.io/activity-template`
 
 You can learn more [about github pages on this link](https://pages.github.com/). 
 
 ### Important stuff about branches
-Github pages work from the ```gh-pages``` branch. New repositories come by default with a ```master``` branch. You need to create a ```gh-pages``` branch and use it to commit and push your data. If you are using ```master``` then this will not work.
+Github pages work from the `gh-pages` branch. New repositories come by default with a `master` branch. You need to create a `gh-pages` branch and use it to commit and push your data. If you are using `master` then this will not work.
 
-We advise you to create the ```gh-pages```, set it as the default branch on your repository settings and then delete the ```master``` branch.
+We advise you to create the `gh-pages`, set it as the default branch on your repository settings and then delete the `master` branch.
 
 # How does this work (internally)
-This web app uses AJAX requests to fetch the markdown files asynchronously and then process them using ```marked.js```. It then uses ```handlebars.js``` to insert the processed markdown content into pretty templates. It is also using ```jQuery``` and ```YAML.js``` to make things easier.
+This web app uses AJAX requests to fetch the markdown files asynchronously and then process them using `marked.js`. It then uses `handlebars.js` to insert the processed markdown content into pretty templates. It is also using `jQuery` and `YAML.js` to make things easier.
 
 All the interesting code is inside [the app.js file](https://github.com/RioMozillaClub/activity-template/blob/gh-pages/app.js).
 
