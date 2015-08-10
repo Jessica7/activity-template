@@ -49,5 +49,30 @@ After cloning your new repository to your computer, you will copy all the files 
 > * **Semantical:** You fork a project when you want to contribute back to it in the form of pull requests or when you want to take a specific project in a new direction. If you want to contribute back to this template, then forking is the correct thing to do but if you're creating new activities then this is semantically different than contributing back or taking this template into a new direction.
 
 ## Step #3 - Customize the markdown content
+The only location where you will change stuff in this template system is inside the ```data``` folder. You will add your images to the ```data/images``` folder and you will customize both the ```aside.md``` and the ```activity.md``` markdown files.
+
+This template has a main content area (content from ```activity.md```) and a little sidebar on the left side (content from ```aside.md```). You need to customize both files to your needs. You can experiment by opening the ```index.html``` file from your local repository, changing those markdown files, and reloading the page to see how changes work.
+ 
+Tweak your content until you're happy. Remember that you can keep pushing new revisions of it to your github repo so don't be afraid to experiment.
+ 
+## Step #4 - Commit and push!
+Now that you have your content ready to upload you need to commit your changes to the local repository and push them to the remote repository on github. Once you push it, it will take a little bit of time for it to be available.
+
+Rememeber to add the image files to your commit. Just adding files to the folder is not enough for them to be added to the commit and carried over. Check the [Github Guides](https://guides.github.com/) for more information about this.
+
+Once you push your changes back to your repository, you will be able to browse it online using the public URL for the repository. For example the URL for this repository is:
+
+```http://github.com/riomozillaclub/activity-template```
+
+The URL to see the working page becomes:
+
+```http://riomozillaclub.github.io/activity-template```
+
+You can learn more [about github pages on this link](https://pages.github.com/). 
+
+### Important stuff about branches
+Github pages work from the ```gh-pages``` branch. New repositories come by default with a ```master``` branch. You need to create a ```gh-pages``` branch and use it to commit and push your data. If you are using ```master``` then this will not work.
+
+We advise you to create the ```gh-pages```, set it as the default branch on your repository settings and then delete the ```master``` branch.
 
 
