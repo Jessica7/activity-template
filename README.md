@@ -34,9 +34,9 @@ The instructions here will become much more clear if you have some basic knowled
 ## Step #1 - Create a new repository
 Once you decide to create a new activity, your first step is to create a new repository on Github. You can think of a repository as a project folder. All your data about your new activity will live inside that repository.
  
- We advise you to give a meaningful name for your repository. Usually repository names are all lowercase where words are joined by dashes as in:
+We advise you to give a meaningful name for your repository. Usually repository names are all lowercase where words are joined by dashes as in:
  
- ```club-activity-challenge-of-the-chupacabra```
+```club-activity-challenge-of-the-chupacabra```
  
 > If we all agree on a common prefix for our repository names (such as: ```club-activity-*```) then it will be quite easy to scan Github and find all activities
 
