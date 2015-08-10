@@ -57,6 +57,25 @@ The only location where you will change stuff in this template system is inside 
 This template has a main content area (content from `activity.md`) and a little sidebar on the left side (content from `aside.md`). You need to customize both files to your needs. You can experiment by opening the `index.html` file from your local repository, changing those markdown files, and reloading the page to see how changes work.
  
 Tweak your content until you're happy. Remember that you can keep pushing new revisions of it to your github repo so don't be afraid to experiment.
+
+### Important stuff about `activity.md`
+There is some magic happening on `activity.md` that is beyond the normal markdown syntax. First as you can see on the [top of the file](https://raw.githubusercontent.com/RioMozillaClub/activity-template/gh-pages/data/activity.md) there is a little header:
+
+```
+---
+title: Kraken the Code
+github: riomozillaclub/activity-template
+image: square-kraken.png
+competencies:
+    - Search
+    - Credibility
+---
+```
+
+This holds metadata about the activity and needs to hold your own content. There is also some CSS classes automagically applied to specific paragraphs. The fourth paragraph is the *Lead* paragraph and fifth paragraph is the **Activity time** paragraph. If you check out [the live activity page for the template](http://riomozillaclub.github.io/activity-template/) you will notice that the fourth and fifth paragraphs are different than the others.
+
+Each first paragraph after an horizontal ruler is a `time` paragraph that when rendered becomes that little circle. By playing the `activity.md` and checking how the content and the live version interact you will learn how to use it.
+
  
 ## Step #4 - Commit and push!
 Now that you have your content ready to upload you need to commit your changes to the local repository and push them to the remote repository on github. Once you push it, it will take a little bit of time for it to be available.
