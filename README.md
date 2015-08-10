@@ -1,0 +1,53 @@
+# Activity Template for MLN activities
+This is a simple to use template that can be used to prototype and test new activities for the Mozilla Learning Networks. The main advantages of this template system are explained below and after that we explain how to use it.
+
+The idea is that each activity lives inside their own [Github repository](https://help.github.com/articles/github-glossary/#repository). This leads to the advantages below:
+
+## Use markdown to write content
+This template system uses the popular [markdown text file format](http://daringfireball.net/projects/markdown/) to store activity data. This is much easier than changing data on static HTML files and leads to much faster iteration and easier content management. We have some links for you in case you're not familiar with this file format:
+
+* [Markdown basics](https://help.github.com/articles/markdown-basics/)
+* [Mastering markdown](https://guides.github.com/features/mastering-markdown/)
+
+Markdown is converted at runtime to HTML by this system, so even though you write your activity instructions in a simple text file format, the result is rendered as HTML. You don't need to install anything for this to work besides having a working [git version control system](http://git-scm.org) available on your machine.
+
+## Use *issues* to handle discussion
+Each github repository has its own issue tracker. Think of it as a mini bugzilla that can be used to track discussions, problems and recommendations for the repository at hand. We can use the issues system to handle all our tasks related to the testing, improvement and discussion for a given activity. MLN already makes extensive use of github issues to handle many different tasks, this is just joining the current flow.
+
+## Use *wiki* to hadle extra documentation
+All repositories have their own wiki system which we can use to hold extra documentation about a given task. Stuff such as advise, recomendation for extra materials or even tips about how to deal with common challenges.
+
+The wiki can be edited online on the github portal or managed as markdown files in a special branch. You may opt to one way or the other depending on your knowledge of git and github.
+
+## Use *github pages* system to distribute content
+Since github repos can host static web content, it makes really easy to distribute our content using them. Mostly this frees us from having to deal with a web server and all the maintenance and security that comes from it.
+
+# How to use this template
+The instructions here will become much more clear if you have some basic knowledge of git and github. You can learn more about both at:
+
+* [Github Guides](https://guides.github.com/): Github provides many guides that are quick to read/watch and will explain all that you need.
+* [Pro GIT book](https://git-scm.com/book/en/v1): This is an awesome book but it goes a universe beyond the knowledge you need. After this book you will become a GIT deity. The book is freely available, chapters 1 and 2 will give you knowledge enough to do any task you need. 
+
+## Step #1 - Create a new repository
+Once you decide to create a new activity, your first step is to create a new repository on Github. You can think of a repository as a project folder. All your data about your new activity will live inside that repository.
+ 
+ We advise you to give a meaningful name for your repository. Usually repository names are all lowercase where words are joined by dashes as in:
+ 
+ ```club-activity-challenge-of-the-chupacabra```
+ 
+> If we all agree on a common prefix for our repository names (such as: ```club-activity-*```) then it will be quite easy to scan Github and find all activities
+
+After creating your new repository on Github, follow the instructions to clone it to your machine. This will make a local copy of the repository on your computer. You will work on your local independent copy and commit and push your data back to the online repository on github. This allows you to work offline and to have a safe copy of all your data.
+
+## Step #2 - Copy the files from this repository to your new repository
+After cloning your new repository to your computer, you will copy all the files from this repository to your new respository. The easiest way is to download a current copy from this repository using [the download link on Github](https://github.com/RioMozillaClub/activity-template/archive/gh-pages.zip). This link will give you a ZIP file will all the files you need. You can also clone [this repository](https://github.com/RioMozillaClub/activity-template) to your computer and then copy and paste the files from one folder to the other.
+
+> # Why copying files instead of forking
+> If you are familiar with git you may be wondering why we're advising the user to copy files from one repository to the other instead of just forking the repository into a new one. We're doing this because of two reasons. One is technical and the other semantical.
+>
+> * **Technical:** Github only allows you to have one fork per repository so if you fork the ```activity-template``` to create your ```club-activity-rainbow-slurpee``` then you won't be able to fork it again to create another activity.
+> * **Semantical:** You fork a project when you want to contribute back to it in the form of pull requests or when you want to take a specific project in a new direction. If you want to contribute back to this template, then forking is the correct thing to do but if you're creating new activities then this is semantically different than contributing back or taking this template into a new direction.
+
+## Step #3 - Customize the markdown content
+
+
