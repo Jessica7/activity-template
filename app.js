@@ -3,9 +3,15 @@
     // Used to hold information from aside.md and activity.md
     var data = {
         config: {},
-        activity: {}
+        activity: {},
+        currentLocale: "en"
     };
 
+    // Returns the path for a given file with locale.
+    function getPathForLocale(inPath, inLocale) {
+        var locale = inLocale || data.currentLocale;
+        return "data/" + locale + "/" + inPath;
+    }
 
     // Builds the top menu
     function bindNavigationData() {
@@ -35,12 +41,37 @@
         }
 
         $.ajax({
-            url: "data/aside.md",
+            url: getPathForLocale("aside.md", null),
             type: 'get',
             dataType: 'html',
             success: successfulyLoadedMarkdownFile
         });
 
+    }
+
+    function bindLocaleData() {
+        var source = $("#locale-template").html();
+        var template = Handlebars.compile(source);
+
+        console.log("Loading locales.json file...");
+
+        function successfulyLoadedLocalesFile(locales) {
+
+            data.locales = locales;
+
+            console.log("Binding locale data...");
+
+            $(".locales-bar").html(template(data));
+
+            bindActivityData();
+        }
+
+        $.ajax({
+            url: "data/locales.json",
+            type: 'get',
+            dataType: 'json',
+            success: successfulyLoadedLocalesFile
+        });
     }
 
     // Builds the main content area
@@ -77,7 +108,7 @@
         }
 
         $.ajax({
-            url: "data/activity.md",
+            url:  getPathForLocale("activity.md", null),
             type: 'get',
             dataType: 'html',
             success: successfulyLoadedMarkdownFile
@@ -111,6 +142,6 @@
         return str.toLowerCase();
     });
 
-    // Load main content area and start the app.
-    bindActivityData();
+    // Start the app.
+    bindLocaleData();
 }());
