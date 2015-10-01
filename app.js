@@ -13,6 +13,31 @@
         return "data/" + locale + "/" + inPath;
     }
 
+    function isLocaleAvailable(inLocale) {
+        if (!data.locales) {
+            return false;
+        }
+
+        for(var i = 0, len = data.locales.length; i < len; i++) {
+            if (data.locales[i].code == inLocale) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    function switchLocale(inLocale) {
+        if (isLocaleAvailable(inLocale)) {
+            console.log("switching current locale to", inLocale);
+            data.currentLocale = inLocale;
+            bindActivityData();
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     // Builds the top menu
     function bindNavigationData() {
         var source = $("#navigation-template").html();
@@ -50,7 +75,7 @@
     }
 
     function bindLocaleData() {
-        var source = $("#locale-template").html();
+        var source = $("#locales-bar-template").html();
         var template = Handlebars.compile(source);
 
         console.log("Loading locales.json file...");
@@ -62,6 +87,12 @@
             console.log("Binding locale data...");
 
             $(".locales-bar").html(template(data));
+
+            $(".locales-switch").click(function() {
+                var newLocale = $(this).attr("data-locale");
+
+                switchLocale(newLocale);
+            });
 
             bindActivityData();
         }
