@@ -48,12 +48,14 @@
         $("#navigation").html(template(data));
 
 
-        $(".locale-switch").click(function() {
-            var newLocale = $(this).attr("data-locale");
+        $("#locales-switch").change(function() {
+            var newLocale = $(this).val();
+            var text = $(this).text();
 
             console.log("Switching locale callback");
-
             switchLocale(newLocale);
+
+            return true;
         });
     }
 
@@ -170,6 +172,14 @@
 
     Handlebars.registerHelper('toLowerCase', function (str) {
         return str.toLowerCase();
+    });
+
+    Handlebars.registerHelper('selectIfCurrentLocale', function(str) {
+        if (str == data.currentLocale) {
+            return "selected";
+        } else {
+            return "";
+        }
     });
 
     // Start the app.
