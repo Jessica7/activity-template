@@ -1,28 +1,29 @@
-#### Audience (pt)
+#### Público-alvo
 
 * 8+
-* beginning critical thinkers
+* Jovens pensadores críticos
 
-#### Materials
+#### Materiais
 
-* Papers and pens
-* Web browser
-* Printed [Legit-o-Meter worksheet](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit)
+* Papéis e canetas
+* Navegador Web
+* Copias do [Legitômetro](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit)
 
-#### Learning Objectives
+#### Objetivos de aprendizado
 
-* Locate relevant information by using search engines
-* Compare and contrast information found using multiple searches
-* Compare information from a number of sources to judge their trustworthiness
-* Decide on the trustworthiness of information by identifying key indicators
-* Document the authorship of a website and their content
+* Localizar a informação relevante, utilizando motores de busca
+* Comparar e contrastar informações encontradas utilizando várias pesquisas
+* Comparar as informações de várias fontes para julgar sua confiabilidade
+* Decidir sobre a confiabilidade das informações, identificando os principais indicadores
+* Documentar a autoria de um site e seu conteúdo
 
-#### How learners become mentors
+#### Como os alunos se tornam mentores
 
-* Shadow a student or less experienced facilitator so they can practice leading this activity.
-* If some students move faster or are more confident in the activity, ask them to peer mentor another group.
-* Conclude by prompting students to teach this activity to their friends and family.
+* Ajudando um estudante ou facilitador menos experiente para que ele possa praticar liderando essa atividade.
+* Se alguns alunos se terminarem mais rápido a ativiade ou estiverem mais confiantes, pedir-lhes para ajudar outro grupo.
+* Concluir pedindo para os alunos ensinar esta atividade para seus amigos e familiares.
 
-#### See community remixes
+#### Ver remixes da comunidade
 
-Check out the ways educators and activists have modified this activity for their specific audiences in our [Discussion Forum](http://discourse.webmaker.org/t/testing-1-reading-for-the-web/1149/22).
+Confira as maneiras que educadores e ativistas têm modificado esta atividade para os seus públicos específicos em nosso [Fórum de Discussão](http://discourse.webmaker.org/t/testing-1-reading-for-the-web/1149/22) .
+

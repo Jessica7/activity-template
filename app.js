@@ -46,6 +46,15 @@
         console.log("Binding navigation data...");
 
         $("#navigation").html(template(data));
+
+
+        $(".locale-switch").click(function() {
+            var newLocale = $(this).attr("data-locale");
+
+            console.log("Switching locale callback");
+
+            switchLocale(newLocale);
+        });
     }
 
     // Builds the left sidebar
@@ -83,16 +92,6 @@
         function successfulyLoadedLocalesFile(locales) {
 
             data.locales = locales;
-
-            console.log("Binding locale data...");
-
-            $(".locales-bar").html(template(data));
-
-            $(".locales-switch").click(function() {
-                var newLocale = $(this).attr("data-locale");
-
-                switchLocale(newLocale);
-            });
 
             bindActivityData();
         }

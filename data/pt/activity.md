@@ -1,77 +1,76 @@
 ---
-title: Kraken the Code (pt version)
-github: riomozillaclub/activity-template
+title: Código do Kraken
+github: riomozillaclub/atividade-template
 image: square-kraken.png
 competencies:
     - Search
     - Credibility
 ---
 
-## [Section 1. Reading the Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)
+## [Seção 1. Lendo a Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)
 
-### Kraken the Code
+### Código do Kraken
 
-Made by [MOUSE](http://mouse.org/) and remixed for Clubs by [Mozilla](https://webmaker.org/mentor).
+Feito por [MOUSE](http://mouse.org/) e remixada para clubes por [Mozilla](https://webmaker.org/mentor).
 
-Learners will use the Internet to solve the mystery of The Kraken, a legendary sea creature, while also **learning about search terms, keywords, and how to assess the validity and relevance of web sources.**
+Os alunos irão utilizar a Internet para resolver o mistério de O Kraken, uma criatura do mar lendária, ao mesmo tempo ** aprendendo sobre termos de pesquisa, palavras-chave, e como avaliar a validade e relevância das fontes da web. **
 
-45 minutes to an hour
+45 minutos a uma hora
 
-### Preparation
+### Preparação
 
-**Complete the** [pre-activity questionnaire](http://goo.gl/forms/Uua6yKIy5E).
+**Complete a [questionário de pré-atividade](http://goo.gl/forms/Uua6yKIy5E).**
 
-Next **do the activity on your own** to become familiar with it.
+Próximo **fazer a atividade em seu próprio país** para se familiarizar com ele.
 
-**Print out the** [Legit-O-Meter Worksheets](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit).
-
-**Label three pieces of paper** with *“Real,” “Imaginary” and “Something In-between,”* and hang them on different sides of the room.
-
----
-
-10<br>min
-
-### Introduction
-
-Have a **brief conversation with your learners about web sources.**
-
-> * Is everything you read or watch online true?
-> * How do you know when information on the internet is reliable?
-> * How can you tell when it isn’t reliable?
-
-
-**Then review the [Legit-O-Meter Worksheets](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit)** to discuss some general rules for determining the credibility of a website.
-
----
-
-25<br>min
-
-### Kraken the Code: Hunt
-
-Split learners into **groups of 2 or 3** and explain that each group’s challenge is to **prove whether or not the legendary monster, The Kraken, is real or a myth.**
-
-Groups start by **spending 20 minutes researching.** Using the guidelines from the [Tip Sheet](legit-o-meter.html), groups should **evaluate 2 internet sources**, documenting their findings on the Legit-o-Meter (either by [writing on the handout](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit) or editing [the online template](https://laura.makes.org/thimble/Mjg1NjA2NDAw/kraken-the-code-legit-o-meter)).
-
-![Image](http://mozilla.github.io/webmaker-curriculum/images/kraken-in-progress.jpg)
-
-**Consider guiding their research** with the following prompts:
-
-> * Ask learners to individually talk through the process of searching for credible information.
-> * Do a sample search together and ask the group what to do next.
-> * Pair-up learners and ask them to create a screencast explaining their decisions.
-
-![Mouse](http://mozilla.github.io/webmaker-curriculum/images/kraken-finished-example.jpg)
+* **Imprima as ** [Legitometro](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit).
+* **Etiqueta três pedaços de papel** com "Real", "Imaginary" e "Something In-entre", * e pendurá-los em lados diferentes da sala.
 
 ---
 
 10<br>min
 
-### Kraken the Code: Defense
+### Introdução
 
-At the end of the research period, **groups will stand under one of the signs:** “Real,” “Imaginary,” or “Something In-between”.
+Tenha uma breve conversa ** com seus alunos sobre fontes da web. **
 
-Ask each group what they found out about the Kraken and to **defend their opinions** using the Legit-o-Meter worksheets they filled out. Participants **can change position** if they hear convincing arguments.
+> * É tudo o que você ler ou assistir verdadeira online?
+> * Como você sabe quando a informação na internet é confiável?
+> * Como você pode dizer quando ele não é confiável?
 
-Conclude by asking the group to reflect on what they found.
 
-Complete the **[post-activity questionnaire](http://goo.gl/forms/ezm6IXWhhM)**.
+** Em seguida, reveja o [Legit-O-Meter Planilhas](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit) ** para discutir algumas regras gerais para determinar a credibilidade da Um website.
+
+---
+
+25 <br> min
+
+### Do Código Kraken: Caça
+
+Alunos divididos em grupos ** de 2 ou 3 ** e explicar que o desafio de cada grupo é ** provar ou não o monstro lendário, o Kraken, é real ou um mito. **
+
+Grupos começar por ** gastar 20 minutos pesquisando. ** Usando as guias do [Tip Sheet](legítimo-o-meter.html), os grupos devem avaliar ** 2 ** fontes da internet, documentando as suas conclusões sobre o Legit-o -contador (seja por [escrever na folha](https://docs.google.com/a/zythepsary.com/file/d/0B1vyNnSVEMIDbDVLX1E4ZXRmclE/edit) ou edição [do modelo on-line](https://laura. makes.org/thimble/Mjg1NjA2NDAw/kraken-the-code-legit-o-meter)).
+
+![Imagem](http://mozilla.github.io/webmaker-curriculum/images/kraken-in-progress.jpg)
+
+** Considere orientando suas pesquisas ** com as seguintes instruções:
+
+> * Peça aos alunos que falar individualmente através do processo de busca de informação credível.
+> * Faça uma pesquisa de amostra juntos e pedir ao grupo o que fazer a seguir.
+> * Alunos Pair-up e pedir-lhes para criar um screencast explicando suas decisões.
+
+![Rato](http://mozilla.github.io/webmaker-curriculum/images/kraken-finished-example.jpg)
+
+---
+
+10 <br> min
+
+### Do Código Kraken: Defesa
+
+No final do período de investigação, grupos ** vai ficar sob um dos sinais: ** "real", "Imaginary", ou "Something In-entre".
+
+Peça a cada grupo o que eles descobriram sobre o Kraken e defender as suas opiniões ** ** usando os O Meter Legit-planilhas eles preenchidos. ** Os participantes podem mudar de posição ** se ouvir argumentos convincentes.
+
+Concluir perguntando o grupo a refletir sobre o que encontraram.
+
+Complete a **[questionário pós-atividade](http://goo.gl/forms/ezm6IXWhhM) **.

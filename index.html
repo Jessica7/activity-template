@@ -27,7 +27,13 @@
                 <button type="button" class="navbar-toggle" ng-click="collapseToggle()"><span class="sr-only">Toggle navigation</span></button> <!-- logo -->
                 <a href="#" class="logo webmaker-logo"><img src="https://webmaker.org/img/logo.png"></a>
 
+
                 <ul class="nav navbar-nav navbar-right navbar-collapse text-center-xs collapse">
+                    {{#each locales}}
+                    <li>
+                        <a href="#" class="locale-switch" data-locale="{{code}}">{{name}}</a>
+                    </li>
+                    {{/each}}
                     <li>
                         <a href="https://twitter.com/hashtag/teachtheweb">#TeachTheWeb</a>
                     </li>
