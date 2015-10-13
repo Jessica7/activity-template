@@ -17,7 +17,7 @@ Markdown is converted at runtime to HTML by this system, so even though you writ
 ## Use *issues* to handle discussion
 Each github repository has its own issue tracker. Think of it as a mini bugzilla that can be used to track discussions, problems and recommendations for the repository at hand. We can use the issues system to handle all our tasks related to the testing, improvement and discussion for a given activity. MLN already makes extensive use of github issues to handle many different tasks, this is just joining the current flow.
 
-## Use *wiki* to hadle extra documentation
+## Use *wiki* to handle extra documentation
 All repositories have their own wiki system which we can use to hold extra documentation about a given task. Stuff such as advise, recomendation for extra materials or even tips about how to deal with common challenges.
 
 The wiki can be edited online on the github portal or managed as markdown files in a special branch. You may opt to one way or the other depending on your knowledge of git and github.
@@ -52,7 +52,7 @@ After cloning your new repository to your computer, you will copy all the files 
 > * **Semantical:** You fork a project when you want to contribute back to it in the form of pull requests or when you want to take a specific project in a new direction. If you want to contribute back to this template, then forking is the correct thing to do but if you're creating new activities then this is semantically different than contributing back or taking this template into a new direction.
 
 ## Step #3 - Customize the markdown content
-The only location where you will change stuff in this template system is inside the `data` folder. You will add your images to the `data/images` folder and you will customize both the `aside.md` and the `activity.md` markdown files.
+The only location where you will change stuff in this template system is inside the `activity-data` folder. You will add your images to the `activity-data/images` folder and you will customize both the `aside.md` and the `activity.md` markdown files that are inside the `content` folder. This `content` folder holds folders for each locale available. So the English instructions for an activity will be inside the `activity-data/content/en/activity.md` file.
 
 This template has a main content area (content from `activity.md`) and a little sidebar on the left side (content from `aside.md`). You need to customize both files to your needs. You can experiment by opening the `index.html` file from your local repository, changing those markdown files, and reloading the page to see how changes work.
  
@@ -65,16 +65,24 @@ There is some magic happening on `activity.md` that is beyond the normal markdow
 ---
 title: Kraken the Code
 github: riomozillaclub/activity-template
+github_label: View on Github
 image: square-kraken.png
+competencies_label: Web Literacy Competencies
 competencies:
     - Search
     - Credibility
 ---
 ```
 
-This holds metadata about the activity and needs to hold your own content. There is also some CSS classes automagically applied to specific paragraphs. The fourth paragraph is the *Lead* paragraph and fifth paragraph is the **Activity time** paragraph. If you check out [the live activity page for the template](http://riomozillaclub.github.io/activity-template/) you will notice that the fourth and fifth paragraphs are different than the others.
+This holds metadata about the activity page and needs to hold your own content. There is also some CSS classes automagically applied to specific paragraphs. 
 
-Each first paragraph after an horizontal ruler is a `time` paragraph that when rendered becomes that little circle. By playing the `activity.md` and checking how the content and the live version interact you will learn how to use it.
+paragraph | style
+------------------
+4th paragraph | this is the **Lead Paragraph**
+5th paragraph | this is the green bar with the activity time
+First paragraph after a horizontal rule | this is a time circle. It should contain the number of minutes that the given step takes in the following format ```40<br>min```
+
+By playing the `activity.md` and checking how the content and the live version interact you will learn how to use it.
 
  
 ## Step #4 - Commit and push!

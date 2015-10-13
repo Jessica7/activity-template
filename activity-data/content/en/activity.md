@@ -1,7 +1,10 @@
 ---
 title: Kraken the Code
 github: riomozillaclub/activity-template
+github_label: View on Github
+discourse_label: Discussion
 image: square-kraken.png
+competencies_label: Web Literacy Competencies
 competencies:
     - Search
     - Credibility

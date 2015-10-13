@@ -57,11 +57,11 @@
 
     <script id="aside-template" type="text/x-handlebars-template">
         <div class="image">
-            <img src="data/images/{{activity.meta.image}}"> <a href="http://mouse.org" class="attribution"><i class="fa fa-camera"></i> Mouse</a>
+            <img src="activity-data/images/{{activity.meta.image}}"> <a href="http://mouse.org" class="attribution"><i class="fa fa-camera"></i> Mouse</a>
         </div>
 
         <div class="goals">
-            <h4>Web Literacy Competencies</h4>
+            <h4>{{activity.meta.competencies_label}}</h4>
             {{#each activity.meta.competencies}}
                 {{{competencyButton this}}}
             {{/each}}

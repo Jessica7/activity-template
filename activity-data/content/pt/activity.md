@@ -1,10 +1,13 @@
 ---
 title: Código do Kraken
 github: riomozillaclub/atividade-template
+github_label: Ver no Github
+discourse_label: Fórum
 image: square-kraken.png
+competencies_label: Competências do Letramento Web
 competencies:
-    - Search
-    - Credibility
+    - Busca
+    - Credibilidade
 ---
 
 ## [Seção 1. Lendo a Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)

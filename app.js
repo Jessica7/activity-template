@@ -10,7 +10,7 @@
     // Returns the path for a given file with locale.
     function getPathForLocale(inPath, inLocale) {
         var locale = inLocale || data.currentLocale;
-        return "data/" + locale + "/" + inPath;
+        return "activity-data/content/" + locale + "/" + inPath;
     }
 
     function isLocaleAvailable(inLocale) {
@@ -99,7 +99,7 @@
         }
 
         $.ajax({
-            url: "data/locales.json",
+            url: "activity-data/locales.json",
             type: 'get',
             dataType: 'json',
             success: successfulyLoadedLocalesFile
