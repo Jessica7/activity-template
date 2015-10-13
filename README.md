@@ -77,7 +77,7 @@ competencies:
 This holds metadata about the activity page and needs to hold your own content. There is also some CSS classes automagically applied to specific paragraphs. 
 
 paragraph | style
-------------------
+----------|--------
 4th paragraph | this is the **Lead Paragraph**
 5th paragraph | this is the green bar with the activity time
 First paragraph after a horizontal rule | this is a time circle. It should contain the number of minutes that the given step takes in the following format ```40<br>min```
